@@ -113,6 +113,11 @@ section {
 
 @media(max-width:632px){
     
+    body{
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     section {
         grid-area:section;
         display: flex;
